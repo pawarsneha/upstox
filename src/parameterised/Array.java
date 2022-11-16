@@ -14,7 +14,7 @@ String ar[]=new String [5];
 	
 	//print data which is not present
 	try {
-		System.out.println(ar[5]);
+		System.out.println(ar[4]);
 	}
 catch(ArrayIndexOutOfBoundsException a) {
 	System.out.println("idiat their is no data still u are trying to fetch itmeans u are waste fello");
